@@ -4,13 +4,13 @@
    rojo · magenta · turquesa · naranja · amarillo · verde · morado
    ============================================================ */
 .home {
-  --rojo: #e2132b;
-  --magenta: #e6398b;
-  --turquesa: #00a9a5;
-  --naranja: #f7941e;
-  --amarillo: #fbc02d;
+  --rojo: #ec0000;
+  --magenta: #ec0000;
+  --turquesa: #009b9b;
+  --naranja: #ec0000;
+  --amarillo: #ec0000;
   --verde: #4caf50;
-  --morado: #8e24aa;
+  --morado: #a91100;
   --azul: #29b6f6;
 
   --home-text: #2b2b3a;
@@ -19,13 +19,8 @@
   /* Franja textil reutilizable (evoca la banda tejida de la manta) */
   --franja: repeating-linear-gradient(
     90deg,
-    var(--rojo) 0 14px,
-    var(--amarillo) 14px 22px,
-    var(--turquesa) 22px 36px,
-    var(--morado) 36px 44px,
-    var(--verde) 44px 58px,
-    var(--magenta) 58px 66px,
-    var(--naranja) 66px 80px
+    var(--rojo) 0 40px,
+    #ffffff 40px 44px
   );
 
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -432,7 +427,7 @@
   position: relative;
   display: flex;
   color: #fff;
-  background: linear-gradient(150deg, #8e24aa 0%, #e2132b 52%, #f7941e 100%);
+  background: linear-gradient(150deg, #a91100 0%, #ec0000 60%, #ec0000 100%);
   background-size: 180% 180%;
   animation: splitInRight 0.7s cubic-bezier(0.22, 1, 0.36, 1) both,
     lpShift 18s ease 0.7s infinite;

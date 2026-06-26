@@ -19,20 +19,20 @@ const chips = (arr) => (
 
 // Flor multicolor (colores del logo) usada como decoración del login.
 const PETALOS = [
-  { a: 0, c: '#e6398b' },
-  { a: 60, c: '#f7941e' },
-  { a: 120, c: '#fbc02d' },
-  { a: 180, c: '#4caf50' },
-  { a: 240, c: '#00a9a5' },
-  { a: 300, c: '#8e24aa' },
+  { a: 0, c: '#ec0000' },
+  { a: 60, c: '#a91100' },
+  { a: 120, c: '#ec0000' },
+  { a: 180, c: '#a91100' },
+  { a: 240, c: '#ec0000' },
+  { a: 300, c: '#a91100' },
 ]
 const Flor = ({ className }) => (
   <svg className={className} viewBox="0 0 200 200" aria-hidden="true">
     {PETALOS.map((p) => (
       <ellipse key={p.a} cx="100" cy="50" rx="28" ry="52" fill={p.c} transform={`rotate(${p.a} 100 100)`} />
     ))}
-    <circle cx="100" cy="100" r="34" fill="#fbc02d" />
-    <circle cx="100" cy="100" r="17" fill="#e2132b" />
+    <circle cx="100" cy="100" r="34" fill="#ffffff" />
+<circle cx="100" cy="100" r="17" fill="#ec0000" />
   </svg>
 )
 
@@ -362,7 +362,7 @@ export default function HomePage() {
       </div>
 
       <footer className="home-footer-bar">
-        <span>© 2026 Banco Andino · Core Financiero — Sistema interno</span>
+        <span>© 2026 Banco  · Core Financiero — Sistema interno</span>
         <span>
           <a href="#terminos">Términos</a> · <a href="#privacidad">Privacidad</a> ·{' '}
           <a href="#soporte">Soporte</a>

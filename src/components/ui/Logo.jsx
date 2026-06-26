@@ -64,7 +64,7 @@ export default function Logo({ size = 44, wordmark = true, variant = 'dark' }) {
               letterSpacing: '-0.5px',
             }}
           >
-            Banco Andino
+            Banco Santander
           </span>
           <span
             style={{

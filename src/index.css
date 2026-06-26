@@ -1,20 +1,20 @@
 :root {
-  /* Paleta de marca — colores del textil andino */
-  --c-primary: #e2132b; /* rojo */
-  --c-primary-dark: #b50f22;
-  --c-accent: #e6398b; /* magenta */
-  --c-magenta: #e6398b;
-  --c-turquesa: #00a9a5;
-  --c-naranja: #f7941e;
-  --c-amarillo-t: #fbc02d;
+  /* Paleta de marca Banco Santander */
+  --c-primary: #ec0000; /* rojo Santander */
+  --c-primary-dark: #a91100;
+  --c-accent: #ec0000;
+  --c-magenta: #ec0000;
+  --c-turquesa: #009b9b;
+  --c-naranja: #ec0000;
+  --c-amarillo-t: #ec0000;
   --c-verde-t: #4caf50;
-  --c-morado: #8e24aa;
+  --c-morado: #ec0000;
   --c-azul: #29b6f6;
 
-  --c-bg: #fbf7f8;
+  --c-bg: #f7f7f7;
   --c-surface: #ffffff;
-  --c-border: #f0e6ea;
-  --c-text: #2b2b3a;
+  --c-border: #ececec;
+  --c-text: #1a1a1a;
   --c-text-soft: #6b6b7b;
 
   /* Estados (semáforo) */
@@ -22,16 +22,11 @@
   --c-amarillo: #d97706;
   --c-rojo: #dc2626;
 
-  /* Franja tejida reutilizable */
+  /* Franja reutilizable Santander */
   --franja: repeating-linear-gradient(
     90deg,
-    #e2132b 0 14px,
-    #fbc02d 14px 22px,
-    #00a9a5 22px 36px,
-    #8e24aa 36px 44px,
-    #4caf50 44px 58px,
-    #e6398b 58px 66px,
-    #f7941e 66px 80px
+    #ec0000 0 40px,
+    #ffffff 40px 44px
   );
 
   --radius: 10px;
@@ -134,7 +129,7 @@ a:hover {
 
 .navbar {
   height: 60px;
-  background: linear-gradient(110deg, #8e24aa, #e2132b 55%, #f7941e);
+  background: linear-gradient(110deg, #a91100, #ec0000 60%, #ec0000);
   color: #fff;
   display: flex;
   align-items: center;
@@ -406,7 +401,7 @@ table.tbl tbody tr:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #8e24aa, #e2132b 50%, #f7941e);
+  background: linear-gradient(135deg, #a91100, #ec0000 55%, #ec0000);
   position: relative;
 }
 .login-wrap::before {

@@ -156,7 +156,7 @@ export default function SolicitudDetallePage() {
     ['Cliente', solicitud.nomcliente],
     ['Monto solicitado', money(solicitud.montosolicitudcredito)],
     ['Plazo', `${num(solicitud.plazosolicitudcredito)} meses`],
-    ['Tipo', solicitud.codtiposolicitud],
+    ['Tipo', solicitud.codtipocredito === 'VE' ? 'Crédito Vehicular' : solicitud.codtipocredito === 'CO' ? 'Consumo' : 'Microempresa'],
     ['Nivel de aprobación', solicitud.desnivelaprobacion || '—'],
     ['Monto aprobado', solicitud.montoaprobadocredito ? money(solicitud.montoaprobadocredito) : '—'],
     ['Fecha de aprobación', solicitud.fechaaprobacioncredito || '—'],
